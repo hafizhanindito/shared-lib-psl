@@ -11,6 +11,7 @@ class Pipeline {
    String pr_num
    String dockerTool
    String docker_registry
+
    Pipeline(
        String repository_name,
        String branch_name,
